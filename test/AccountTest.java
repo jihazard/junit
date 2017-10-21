@@ -31,7 +31,7 @@ public class AccountTest {
 	@Test(expected = IllegalArgumentException.class)
 	public void 예외처리테스트(){
 		계좌 account = new 계좌();
-		account.set저금함(10);
+		account.set저금함(1000);
 		account.get인출(100);
 		
 		
